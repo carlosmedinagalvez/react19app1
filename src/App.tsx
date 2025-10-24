@@ -7,7 +7,7 @@ function App() {
     const unusedVariable = 'test';
     return (
         <Routes>
-            <Route path="/" element={ <Home /> } />
+            <Route path="/" element={ <Home/> } />
             <Route path="/catalog" element={ <Products/> } />
         </Routes>
     )
